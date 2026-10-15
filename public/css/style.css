@@ -1,0 +1,61 @@
+@font-face {
+  font-family: 'modir';
+  src: url('../fonts/mr-modir-Medium.woff2');
+}
+
+@font-face {
+  font-family: 'modirBold';
+  src: url('../fonts/mr-modir-Bold.woff2');
+}
+
+body {
+  font-family: 'modir';
+}
+
+h1, h2, h3, h4{
+  font-family: 'modirBold';
+}
+
+.modir-bold{
+    font-family: modirBold;
+}
+
+/* Firefox */
+html {
+    scrollbar-width: thin;
+    scrollbar-color: #4fa4f3 #FAF8F4;
+}
+
+/* Chrome, Edge, Safari */
+::-webkit-scrollbar {
+    width: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background: #FAF8F4;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(
+        180deg,
+        #4fa4f3 0%,
+        #0f4c3a 100%
+    );
+    border-radius: 10px;
+    border: 3px solid #FAF8F4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(
+        180deg,
+        #8d6945 0%,
+        #0c3d2f 100%
+    );
+}
+
+::-webkit-scrollbar-corner {
+    background: #FAF8F4;
+}
+
+
